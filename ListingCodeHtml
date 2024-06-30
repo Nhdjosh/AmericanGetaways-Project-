@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AmericanGetaways - Orlando Listings</title>
+    <link rel="stylesheet" href="MyStyle.css">
+</head>
+<body>
+    <header>
+        <h1>AmericanGetaways</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="listings.html">Listings</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login/Signup</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="listings">
+            <h2>Orlando, Florida Listings</h2>
+            <div class="listing">
+                <img src="images/orlando1.jpg" alt="Sunny Villa">
+                <div class="listing-details">
+                    <h3>Sunny Villa</h3>
+                    <p>Location: Orlando, Florida</p>
+                    <p>Price: $150 per night</p>
+                </div>
+            </div>
+            <div class="listing">
+                <img src="images/orlando2.jpg" alt="Luxury Condo">
+                <div class="listing-details">
+                    <h3>Luxury Condo</h3>
+                    <p>Location: Orlando, Florida</p>
+                    <p>Price: $200 per night</p>
+                </div>
+            </div>
+            <div class="listing">
+                <img src="images/orlando3.jpg" alt="Family Home">
+                <div class="listing-details">
+                    <h3>Family Home</h3>
+                    <p>Location: Orlando, Florida</p>
+                    <p>Price: $180 per night</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 AmericanGetaways. All rights reserved.</p>
+    </footer>
+</body>
+</html>
