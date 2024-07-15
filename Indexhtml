@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>American Getaways</title>
+    <title>AmericanGetaways - Orlando Listings</title>
+    <link rel="stylesheet" href="MyStyle.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -27,7 +28,7 @@
             color: black;
         }
         .hero {
-            background-image: url('https://via.placeholder.com/1920x600');
+            background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/08/Amazing-cool-hd-photos-nature-For-Your-Windows.jpg');
             background-size: cover;
             background-position: center;
             height: 600px;
@@ -44,22 +45,31 @@
         .container {
             padding: 20px;
         }
-    </style>
+</style>
 </head>
 <body>
-    <div class="navbar">
-        <a href="index.html">Home</a>
-        <a href="listings.html">Listings</a>
-        <a href="payment.html">Payment</a>
-    </div>
+<header>
+    <h1>AmericanGetaways</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="listings.html">Listings</a></li>
+            <li><a href="login.html">Login/Signup</a></li>
+            <li><a href="payment.html">Payment</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="hero">
+    <h1>Welcome to American Getaways</h1>
+</div>
 
-    <div class="hero">
-        <h1>Welcome to American Getaways</h1>
-    </div>
+<div class="container">
+    <h2>About Us</h2>
+    <p>Welcome to American Getaways! We offer the best travel experiences across the United States. Explore our site to find the perfect getaway for you and your loved ones. Whether you're looking for adventure, relaxation, or cultural experiences, we've got you covered.</p>
+</div>
 
-    <div class="container">
-        <h2>About Us</h2>
-        <p>Welcome to American Getaways! We offer the best travel experiences across the United States. Explore our site to find the perfect getaway for you and your loved ones. Whether you're looking for adventure, relaxation, or cultural experiences, we've got you covered.</p>
-    </div>
+<footer>
+    <p>&copy; 2024 AmericanGetaways. All rights reserved.</p>
+</footer>
 </body>
 </html>
